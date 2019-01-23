@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['.daveottley.com', '104.248.78.224', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
